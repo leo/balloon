@@ -1,4 +1,4 @@
-# menubar
+# tray
 
 # Usage
 
