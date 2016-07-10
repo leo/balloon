@@ -1,0 +1,24 @@
+{
+  "name": "menubar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo/menubar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leo/menubar/issues"
+  },
+  "homepage": "https://github.com/leo/menubar#readme",
+  "dependencies": {
+    "electron-packager": "^7.2.0",
+    "electron-prebuilt": "^1.2.6"
+  }
+}
