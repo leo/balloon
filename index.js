@@ -51,3 +51,10 @@ const trayClicked = () => {
     window.show()
   }
 }
+
+app.bar {
+  tray,
+  window
+}
+
+module.exports = exports.default = app
