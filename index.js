@@ -6,7 +6,7 @@ const Tray = electron.Tray
 const BrowserWindow = electron.BrowserWindow
 
 const windowSpecs = {
-  height: 300,
+  height: 260,
   width: 350
 }
 
@@ -23,7 +23,7 @@ app.on('ready', () => {
 
   window.on('blur', () => window.hide())
 
-  window.loadURL('https://github.com')
+  window.loadURL('file://' + __dirname + '/content.html')
 
   const icon = path.join(__dirname + '/icons', 'iconTemplate.png')
   const tray = new Tray(icon)
