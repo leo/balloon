@@ -15,8 +15,13 @@ app.on('ready', () => {
     width: windowSpecs.width,
     height: windowSpecs.height,
     frame: false,
+    movable: false,
+    alwaysOnTop: true,
+    resizable: false,
     show: false
   })
+
+  window.on('blur', () => window.hide())
 
   window.loadURL('https://github.com')
 
