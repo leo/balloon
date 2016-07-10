@@ -25,7 +25,7 @@ app.on('ready', () => {
 
   window.loadURL('https://github.com')
 
-  const icon = path.join(__dirname + '/assets', 'iconTemplate.png')
+  const icon = path.join(__dirname + '/icons', 'iconTemplate.png')
   const tray = new Tray(icon)
 
   tray.on('click', () => {
