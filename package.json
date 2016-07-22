@@ -1,15 +1,22 @@
 {
-  "name": "menubar",
-  "version": "1.0.0",
-  "description": "",
+  "name": "balloon",
+  "version": "0.1.0",
+  "description": "Build menubar apps for macOS",
   "main": "index.js",
   "scripts": {
     "start": "electron index"
   },
-  "repository": "leo/tray",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": "leo/balloon",
+  "keywords": [
+    "menu",
+    "electron",
+    "bar",
+    "apps",
+    "tray",
+    "icon"
+  ],
+  "author": "leo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/leo/menubar/issues"
   },
