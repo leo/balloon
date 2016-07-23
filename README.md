@@ -2,14 +2,13 @@
 
 ## Usage
 
-This is how you spin up a new menubar app:
+Firstly, load the module:
 
 ```js
 import Balloon from 'balloon'
-const app = new Balloon()
 ```
 
-If you want, you can also easily pass some options along when creating the instance:
+Now create a new instance (and pass along options, if you want):
 
 ```js
 const app = new Balloon({
