@@ -34,9 +34,9 @@
   "author": "leo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leo/menubar/issues"
+    "url": "https://github.com/leo/balloon/issues"
   },
-  "homepage": "https://github.com/leo/menubar#readme",
+  "homepage": "https://github.com/leo/balloon#readme",
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
     "babel-register": "^6.9.0",
