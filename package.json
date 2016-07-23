@@ -4,7 +4,10 @@
   "description": "Build menubar apps for macOS",
   "main": "index.js",
   "scripts": {
-    "start": "electron index"
+    "start": "electron index",
+    "build": "gulp",
+    "prepublish": "gulp transpile",
+    "test": "xo"
   },
   "repository": "leo/balloon",
   "keywords": [
@@ -15,6 +18,19 @@
     "tray",
     "icon"
   ],
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false,
+    "rules": {
+      "import/no-extraneous-dependencies": 0
+    }
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  },
   "author": "leo",
   "license": "MIT",
   "bugs": {
@@ -24,5 +40,13 @@
   "dependencies": {
     "electron-packager": "^7.2.0",
     "electron-prebuilt": "^1.2.6"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
+    "babel-register": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cached": "^1.1.0",
+    "xo": "^0.16.0"
   }
 }
