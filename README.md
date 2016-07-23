@@ -15,3 +15,12 @@ const app = new Balloon({
   ...
 })
 ```
+
+Once you're done with the code, use [electron](https://www.npmjs.com/package/electron-prebuilt) to run the app:
+
+```bash
+$ npm install electron-prebuilt -g
+$ electron index
+```
+
+Done! :blush:
