@@ -52,9 +52,10 @@ const trayClicked = () => {
   }
 }
 
-app.bar {
-  tray,
-  window
+electron.balloon = {
+  app,
+  window,
+  tray
 }
 
-module.exports = exports.default = app
+module.exports = exports.default = electron
