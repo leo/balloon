@@ -2,8 +2,17 @@
 
 ## Usage
 
-Just load everything you need from this module, instead of from electron:
+This is how you spin up a new menubar app:
 
 ```js
-import { app, Tray, ... } from 'balloon'
+import Balloon from 'balloon'
+const app = new Balloon()
+```
+
+If you want, you can also easily pass some options along when creating the instance:
+
+```js
+const app = new Balloon({
+  ...
+})
 ```
