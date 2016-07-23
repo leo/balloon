@@ -37,10 +37,6 @@
     "url": "https://github.com/leo/menubar/issues"
   },
   "homepage": "https://github.com/leo/menubar#readme",
-  "dependencies": {
-    "electron-packager": "^7.2.0",
-    "electron-prebuilt": "^1.2.6"
-  },
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
     "babel-register": "^6.9.0",
