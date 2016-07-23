@@ -24,3 +24,9 @@ $ electron index
 ```
 
 Done! :blush:
+
+## Configuration
+
+| Property | Description | Default&nbsp;value | Type |
+| -------- | ----------- | ------------------ | ---- |
+| root | The directory that contains your app's assets | process.cwd() | String |
